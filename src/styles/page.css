@@ -1,0 +1,15 @@
+.dashboard-wrapper {
+  flex-grow: 1;
+  margin-left: 240px;
+  min-height: 100vh;
+  width: calc(100% - 240px);
+}
+
+.page {
+  margin-top: 90px;
+  padding: 20px 40px;
+  align-content: left;
+  position: static;
+  width: 100%;
+  min-height: calc(100vh - 90px);
+}

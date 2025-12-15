@@ -1,0 +1,145 @@
+.sidebar-toggle {
+  position: fixed;
+  top: 14px;
+  left: 14px;
+  z-index: 1200;
+
+  width: 44px;
+  height: 44px;
+  border: none;
+
+  background: rgba(15, 23, 42, 0.9);
+  color: #f8fafc;
+  font-size: 22px;
+  cursor: pointer;
+
+  display: none;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+  transition: transform 0.25s ease;
+}
+
+.sidebar-toggle:hover {
+  transform: scale(1.05);
+}
+
+/* =========================
+   OVERLAY (MOBILE)
+========================= */
+.sidebar-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(2, 6, 23, 0.6);
+  backdrop-filter: blur(4px);
+  z-index: 900;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.sidebar-overlay.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* =========================
+   SIDEBAR BASE
+========================= */
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+
+  background: #2c0445;
+  color: #f8fafc;
+
+
+  backdrop-filter: blur(10px);
+
+  box-shadow:
+    0 20px 50px rgba(2, 132, 199, 0.25),
+    inset 0 0 0 1px rgba(148, 163, 184, 0.12);
+
+  z-index: 1150;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* =========================
+   LOGO
+========================= */
+.sidebar-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  letter-spacing: 1px;
+}
+
+.logo-icon {
+  filter: drop-shadow(0 0 6px rgba(56, 189, 248, 0.6));
+}
+
+/* =========================
+   MENU
+========================= */
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-menu a {
+  padding: 12px 14px;
+  margin-bottom: 8px;
+
+  border-radius: 10px;
+  text-decoration: none;
+
+  color: #94a3b8;
+  font-weight: 500;
+
+  transition: all 0.25s ease;
+}
+
+.sidebar-menu a:hover,
+.sidebar-menu a.active {
+  background: #1d4ed8;
+  color: #ffffff;
+  box-shadow: 0 8px 20px rgba(29, 78, 216, 0.45);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+/* DESKTOP */
+@media (min-width: 1025px) {
+  .sidebar {
+    transform: translateX(0);
+  }
+}
+
+/* TABLET & MOBILE */
+@media (max-width: 1024px) {
+  .sidebar {
+    transform: translateX(-100%);
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+  }
+
+  .sidebar-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
