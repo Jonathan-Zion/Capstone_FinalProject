@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "employeeId": "EMP001",
+        "employeeName": "Budi Santoso",
+        "department": "Operations",
+        "shift": "Shift 1",
+        "date": "2025-12-15",
+        "checkIn": "06:00",
+        "checkOut": "14:00",
+        "status": "present"
+    },
+    {
+        "id": 2,
+        "employeeId": "EMP002",
+        "employeeName": "Siti Rahayu",
+        "department": "Maintenance",
+        "shift": "Shift 1",
+        "date": "2025-12-15",
+        "checkIn": "06:05",
+        "checkOut": null,
+        "status": "present"
+    },
+    {
+        "id": 3,
+        "employeeId": "EMP003",
+        "employeeName": "Ahmad Wijaya",
+        "department": "Logistics",
+        "shift": "Shift 2",
+        "date": "2025-12-15",
+        "checkIn": null,
+        "checkOut": null,
+        "status": "absent"
+    }
+]

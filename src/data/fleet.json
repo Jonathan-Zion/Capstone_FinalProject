@@ -1,0 +1,63 @@
+{
+    "active": 0,
+    "standby": 154,
+    "maintenance": 8,
+    "breakdown": 3,
+    "vehicles": [
+        {
+            "id": "DT-104",
+            "type": "Dump Truck",
+            "status": "standby",
+            "location": "Parking Lot",
+            "fuel": 85,
+            "coordinates": {
+                "lat": -8.971,
+                "lng": 116.871
+            }
+        },
+        {
+            "id": "DT-105",
+            "type": "Dump Truck",
+            "status": "standby",
+            "location": "Parking Lot",
+            "fuel": 72,
+            "coordinates": {
+                "lat": -8.972,
+                "lng": 116.872
+            }
+        },
+        {
+            "id": "DT-201",
+            "type": "Dump Truck",
+            "status": "standby",
+            "location": "Parking Lot",
+            "fuel": 90,
+            "coordinates": {
+                "lat": -8.969,
+                "lng": 116.869
+            }
+        },
+        {
+            "id": "EX-01",
+            "type": "Excavator",
+            "status": "breakdown",
+            "location": "PIT B",
+            "fuel": 45,
+            "coordinates": {
+                "lat": -8.970,
+                "lng": 116.875
+            }
+        },
+        {
+            "id": "DT-312",
+            "type": "Dump Truck",
+            "status": "maintenance",
+            "location": "Workshop",
+            "fuel": 0,
+            "coordinates": {
+                "lat": -8.973,
+                "lng": 116.870
+            }
+        }
+    ]
+}

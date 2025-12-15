@@ -1,0 +1,24 @@
+{
+    "coalOutput": {
+        "value": "45,230 T",
+        "trend": "+12%",
+        "status": "up"
+    },
+    "overburden": {
+        "value": "112,050 BCM",
+        "trend": "+5%",
+        "status": "up"
+    },
+    "crusherUtil": {
+        "value": "92.5%",
+        "trend": "-2%",
+        "status": "down"
+    },
+    "fuelBurn": {
+        "value": "85 kL",
+        "trend": "Normal",
+        "status": "neutral"
+    },
+    "shift": "Shift 1",
+    "lastUpdated": "2025-12-15T12:00:00.000Z"
+}

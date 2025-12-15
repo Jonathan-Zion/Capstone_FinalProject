@@ -1,0 +1,34 @@
+[
+    {
+        "stage": "Pit to ROM",
+        "status": "Active",
+        "time": "12 mins avg",
+        "flow": "optimal",
+        "throughput": "850 T/hr",
+        "efficiency": 95
+    },
+    {
+        "stage": "Crushing",
+        "status": "Active",
+        "time": "450 TPH",
+        "flow": "optimal",
+        "throughput": "450 T/hr",
+        "efficiency": 92
+    },
+    {
+        "stage": "Hauling to Port",
+        "status": "Delayed",
+        "time": "+15 mins",
+        "flow": "delayed",
+        "throughput": "320 T/hr",
+        "efficiency": 78
+    },
+    {
+        "stage": "Barge Loading",
+        "status": "Standby",
+        "time": "Waiting",
+        "flow": "standby",
+        "throughput": "0 T/hr",
+        "efficiency": 0
+    }
+]

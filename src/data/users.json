@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "email": "admin@mining.com",
+    "password": "admin123",
+    "name": "Admin User",
+    "role": "admin",
+    "settings": {
+      "darkMode": false,
+      "language": "English (US)",
+      "notifications": {
+        "windAlert": true,
+        "windThreshold": 50,
+        "productionAlert": "Daily at 6:00 PM"
+      },
+      "system": {
+        "refreshRate": 30,
+        "apiCaching": true,
+        "debugMode": false
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "fachri hasan",
+    "email": "fachri@gmail.com",
+    "password": "fachri123",
+    "role": "user",
+    "settings": {
+      "darkMode": false,
+      "language": "English (US)",
+      "notifications": {
+        "windAlert": true,
+        "windThreshold": 50,
+        "productionAlert": "Daily at 6:00 PM"
+      },
+      "system": {
+        "refreshRate": 30,
+        "apiCaching": true,
+        "debugMode": false
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "Fajar",
+    "email": "realmerama243@gmail.com",
+    "password": "12345678",
+    "role": "user",
+    "settings": {
+      "darkMode": false,
+      "language": "English (US)",
+      "notifications": {
+        "windAlert": true,
+        "windThreshold": 50,
+        "productionAlert": "Daily at 6:00 PM"
+      },
+      "system": {
+        "refreshRate": 30,
+        "apiCaching": true,
+        "debugMode": false
+      }
+    }
+  }
+]
